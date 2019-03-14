@@ -17,5 +17,5 @@ def find_the_cheese(ingredients)# code an argument here
   ingredients.each_with_index do |ingredient|
       return ingredient if cheese_types.include?(ingredient)
   end
-      
+     nil 
 end
